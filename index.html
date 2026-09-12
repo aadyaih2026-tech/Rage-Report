@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLASS RAGE</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="ui-layer">
+        <div class="top-bar">
+            <div class="title">GLASS RAGE</div>
+            <div id="weapon-selector">
+                <span class="weapon active" data-weapon="rock">ROCK</span>
+                <span class="weapon" data-weapon="hammer">HAMMER</span>
+                <span class="weapon" data-weapon="rod">ROD</span>
+            </div>
+            <div class="top-actions">
+                <button id="gesture-toggle-btn" class="top-btn" title="Enable Gesture Throwing">🖐️ CAMERA</button>
+                <button id="stop-btn" class="top-btn">STOP</button>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <div id="funny-message"></div>
+            <div id="score">GLASS PIECES: <span>0</span></div>
+        </div>
+        <div id="meters-container">
+            <div class="meter-wrapper">
+                <span class="meter-label">RAGE</span>
+                <div class="meter-track">
+                    <div id="rage-meter-fill"></div>
+                </div>
+            </div>
+            <div class="meter-wrapper">
+                <span class="meter-label">SATISFACTION</span>
+                <div class="meter-track">
+                    <div id="satisfaction-meter-fill"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="game-container">
+        <!-- Glass objects will be injected here -->
+    </div>
+    
+    <div id="results-screen" style="display: none;">
+        <h2 class="results-title">RAGE REPORT</h2>
+        <div class="results-score">GLASS PIECES DESTROYED: <span id="final-score">0</span></div>
+        <p id="troll-message"></p>
+        <button id="reset-btn">BREAK MORE GLASS</button>
+    </div>
+    
+    <video id="gesture-video" style="display:none;" autoplay playsinline></video>
+    <div id="gesture-cursor"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
