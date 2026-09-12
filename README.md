@@ -2,17 +2,17 @@
 
 
 
-# [Project Name] 🎯
+Rage-Report 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Yoohoho!
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Amal Sankar - SNM Institute of management and technology, maliankara
+- Member 2: Aadya IH - SNM Institute of management and technology, maliankara
+
 
 ### Project Description
 [2-3 lines about what your project does]
