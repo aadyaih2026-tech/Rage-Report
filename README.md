@@ -2,7 +2,7 @@
 
 
 
-##Rage-Report 🎯
+# Rage-Report 🎯
 
 
 ## Basic Details
@@ -15,31 +15,62 @@
 
 
 ### Project Description
-[2-3 lines about what your project does]
+GLASS RAGE is a funny and useless web game where you can smash unlimited virtual glass objects using clicks or hand gestures. Watch the glass shatter, collect countless glass pieces, and get roasted by the website for your rage.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Sometimes you feel like breaking something.
+
+Unfortunately, breaking actual glass is expensive, dangerous, and probably a terrible idea.
+
+So we solved a problem nobody asked us to solve:
+
+"What if you could destroy an unlimited amount of glass without consequences?"
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+We created GLASS RAGE.
+
+The website gives you unlimited glass objects to destroy — bottles, mirrors, glasses, vases, windows, and more.
+
+You can:
+
+🖱️ Click/tap to break glass
+🪨 Throw virtual rocks using hand gestures through your webcam
+💥 Watch the glass shatter into fragments
+🔢 Watch your total glass pieces increase
+😭 Get increasingly concerned messages from the website
+🛑 Stop whenever your conscience returns
+🏆 Receive a completely unnecessary Rage Report
+
+And yes, the website will judge you.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+-HTML
+-CSS
+-JavaScript
+-Canvas API
+-Web Camera API
+-Hand Tracking / Gesture Recognition
+-Web Audio API
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+-Webcam / Laptop Camera
+-No additional hardware required
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+Clone the repository:
+git clone 
+
+Navigate to the project:
+cd glass-rage
+
+
+Install dependencies if required:
+npm install
+
 
 # Run
 [commands]
