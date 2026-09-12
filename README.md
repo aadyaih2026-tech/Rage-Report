@@ -1,6 +1,6 @@
 <img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
 
-# Glass Rage 🎯
+# Rage Report 🎯
 
 A virtual rage room and decompression therapy sandbox where you violently demolish infinite glassware using rocks, hammers, rods, or AI webcam hand tracking — complete with procedural glass-shattering acoustics and sarcastic psychological evaluations.
 
